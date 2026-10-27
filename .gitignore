@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# file not to track
+
+src/components/Model/Model_*.tsx
+src/components/Model/ModelWithShaderEffect.tsx
+
+src/shaders/ShaderMaterial_*.tsx
+
+public/model/monster_white.glb
+public/model/monster_energy.glb
+public/model/energy_drink.glb
+public/model/juice-can.glb
